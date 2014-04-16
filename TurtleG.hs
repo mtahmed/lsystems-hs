@@ -5,10 +5,10 @@ import Control.Monad.Trans.State
 
 -- |Turtle datatype
 data Turtle = T {
-      pos :: Point          -- |Current position
-    , dir :: Float          -- |Current direction
-    , stepSize :: Float     -- |Current default step length
-    , paths :: [[Point]]    -- |Current paths taken by the turtle
+      pos :: Point          -- ^Current position
+    , dir :: Float          -- ^Current direction
+    , stepSize :: Float     -- ^Current default step length
+    , paths :: [[Point]]    -- ^Current paths taken by the turtle
     }
   deriving Show
 

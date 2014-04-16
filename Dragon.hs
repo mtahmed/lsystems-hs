@@ -1,5 +1,4 @@
--- Compile: ghc --make Dragon.hs
--- Run: Dragon <iters> <base draw length>   eg. ./Dragon 5 200
+-- Run: cabal run dragon <iterations> <initial step length>
 
 import LSystem
 import TurtleG
